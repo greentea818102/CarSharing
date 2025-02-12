@@ -1,13 +1,19 @@
-# Ignore IntelliJ settings
+# Ignore Gradle and IntelliJ files
+.gradle/
 .idea/
-*.iml
+
+# Ignore build output
+build/
+out/
 
 # Ignore compiled Java classes
 *.class
 
-# Ignore build directories
-out/
-build/
+# Ignore database files
+*.mv.db
 
-# Ignore logs and temp files
+# Ignore test reports and logs
+*.bin
+*.lock
 *.log
+build/
