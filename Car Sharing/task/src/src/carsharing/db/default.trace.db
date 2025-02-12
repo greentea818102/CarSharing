@@ -1,0 +1,42 @@
+2025-02-10 19:13:17 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CUSTOMER ( ID INT PRIMARY KEY AUTOINCREMENT[*] NOT NULL,
+NAME VARCHAR(255) UNIQUE NOT NULL,RENTED_CAR_ID INT ,
+FOREIGN KEY(RENTED_CAR_ID) REFERENCES CAR(ID))"; expected "HASH, AUTO_INCREMENT, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS customer ( ID int PRIMARY KEY AUTOINCREMENT NOT NULL,
+name VARCHAR(255) UNIQUE NOT NULL,rented_car_ID int ,
+FOREIGN KEY(rented_car_ID) REFERENCES car(ID)) [42001-200]
+2025-02-10 19:15:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Syntax error in SQL statement "CREATE TABLE IF NOT EXISTS CUSTOMER ( ID INT PRIMARY KEY AUTOINCREMENT[*] NOT NULL,
+NAME VARCHAR(255) UNIQUE NOT NULL,RENTED_CAR_ID INT ,
+FOREIGN KEY(RENTED_CAR_ID) REFERENCES CAR(ID))"; expected "HASH, AUTO_INCREMENT, NOT, NULL, COMMENT, CHECK, REFERENCES, ,, )"; SQL statement:
+CREATE TABLE IF NOT EXISTS customer ( ID int PRIMARY KEY AUTOINCREMENT NOT NULL,
+name VARCHAR(255) UNIQUE NOT NULL,rented_car_ID int ,
+FOREIGN KEY(rented_car_ID) REFERENCES car(ID)) [42001-200]
+2025-02-11 15:49:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "COMPANY" because "CONSTRAINT_103" depends on it; SQL statement:
+DROP TABLE IF EXISTS company [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.CompanyDAOImplement.createCompanyTable(CompanyDAOImplement.java:49)
+	at carsharing.Main.main(Main.java:19)
+2025-02-11 15:49:10 jdbc[3]: exception
+org.h2.jdbc.JdbcSQLSyntaxErrorException: Cannot drop "CAR" because "CONSTRAINT_52C" depends on it; SQL statement:
+DROP TABLE IF EXISTS car [90107-200]
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:576)
+	at org.h2.message.DbException.getJdbcSQLException(DbException.java:429)
+	at org.h2.message.DbException.get(DbException.java:205)
+	at org.h2.command.ddl.DropTable.prepareDrop(DropTable.java:98)
+	at org.h2.command.ddl.DropTable.update(DropTable.java:124)
+	at org.h2.command.CommandContainer.update(CommandContainer.java:198)
+	at org.h2.command.Command.executeUpdate(Command.java:251)
+	at org.h2.jdbc.JdbcStatement.executeUpdateInternal(JdbcStatement.java:168)
+	at org.h2.jdbc.JdbcStatement.executeUpdate(JdbcStatement.java:126)
+	at carsharing.CarDAOImplement.createCarTable(CarDAOImplement.java:39)
+	at carsharing.Main.main(Main.java:20)

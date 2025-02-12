@@ -1,0 +1,21 @@
+type: code
+files:
+  - name: src/Main.java
+    visible: true
+    highlight_level: NONE
+    learner_created: false
+feedback_link: https://hyperskill.org/learn/step/20195#comment
+status: Failed
+feedback:
+  message: |
+    Compilation error
+    Main.java:35: error: class, interface, enum, or record expected
+    import org.h2.engine.User;
+    ^
+    Main.java:37: error: class, interface, enum, or record expected
+    import java.util.*;
+    ^
+    2 errors
+  time: "Wed, 05 Feb 2025 06:55:11 UTC"
+record: -1
+submission_language: java17

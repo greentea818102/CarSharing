@@ -1,0 +1,118 @@
+type: edu
+custom_name: "Welcome, customer!"
+files:
+  - name: src/carsharing/Main.java
+    visible: true
+    learner_created: false
+  - name: test/CarSharingTest.java
+    visible: false
+    learner_created: false
+  - name: test/DatabaseUtil.java
+    visible: false
+    learner_created: false
+  - name: src/carsharing/Car.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Company.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/h2-1.4.200.jar
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/Menu.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Car.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/Company.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CarDAO.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CarDAOImplement.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CarDAOImplement.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CompanyDAO.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/db/carsharing.trace.db
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Menu.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CompanyDAO.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CompanyDAOImplement.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CompanyDAOImplement.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Main.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CarsharingDB.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CarsharingDB.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CarDAO.java
+    visible: true
+    learner_created: true
+  - name: lib/h2-1.4.200.jar
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/Customer.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CustomerDAO.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/CustomerDAOImplement.java
+    visible: true
+    learner_created: true
+  - name: src/carsharing/Customer.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CustomerDAO.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/carsharing/CustomerDAOImplement.class
+    visible: true
+    is_binary: true
+    learner_created: true
+  - name: src/src/carsharing/db/default.trace.db
+    visible: true
+    learner_created: true
+  - name: src/carsharing/db/carsharing.mv.db
+    visible: true
+    is_binary: true
+    learner_created: true
+feedback_link: https://hyperskill.org/learn/step/11504#comment
+status: Solved
+feedback:
+  message: Well done! You've finished the project. Select a new project on <a href="https://hyperskill.org/projects">Hyperskill</a>
+    to continue learning.
+  time: "Tue, 11 Feb 2025 10:08:35 UTC"
+record: -1
