@@ -1,0 +1,13 @@
+# Ignore IntelliJ settings
+.idea/
+*.iml
+
+# Ignore compiled Java classes
+*.class
+
+# Ignore build directories
+out/
+build/
+
+# Ignore logs and temp files
+*.log
