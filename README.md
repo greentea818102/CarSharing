@@ -3,6 +3,8 @@
 Car Sharing project is a part of Java Backend Developer track provided by Hyperskill that allows users to rent cars from different companies. It provides functionalities for managers to manage companies and cars, as well as for customers to rent and return cars. 
 Application is working with H2 database
 Connection to the database is done with the help of JDBC api.
+### Note:
+I wrote my own code in Car Sharing/task/src/carsharing, but the test code from Hyperskill was also uploaded to GitHub because I pushed everything from IntelliJ.
 
 ## TABLES
 
